@@ -1,8 +1,10 @@
 body {
     font-family: Arial;
     font-size: 16px;
-    font: #303846;
+    color: #303846;
     line-height: 1.5;
+    margin: 0;
+    box-sizing: border-box;
 }
 h1 {
     font-size: 3em;
@@ -21,6 +23,8 @@ header {
     height: 60px;
     background-color: #fff;
     position: sticky;
+    display: flex;
+    align-items: center;
 }
 
 .head-wrapper {
@@ -28,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     font-weight: 600;
+    width: 100%;
 }
 
 .logo {
@@ -36,18 +41,133 @@ header {
     display: inline-flex;
     justify-content: flex-start;
 }
+.logo img {
+    margin-right: 15px;
+}
 
 nav {
     align-items: center;
     display: flex;
     justify-content: flex-end;
 }
-
-
-img {
-    width: 35px;
+nav a {
     margin: 10px;
 }
-a {
-    margin: 5px; 
+
+.moonsea {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.book {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+.advantages-item {
+    width: 30%;
+}
+.about {
+    background-color: #f7f7f7;
+    background-size: 100%;
+}
+.item {
+    flex-direction: column;
+    width: 45%;
+}
+.about img {
+    width: 30%;
+}
+.relax img {
+    width: 30%;
+}
+.form {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    width: 30%;
+    color: #09d3ac;
+    border-radius: 1px;
+}
+.send {
+    background: transparent;
+    border: 1px solid #09d3ac;
+    border-radius: 10px;
+    padding: 10px;
+    color: #09d3ac;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 30%;
+}
+fieldset {
+    border-style: solid;
+    border-color: #09d3ac;
+
+    }
+label {
+    color: black;
+    align-items: center;
+    font-weight: bold;
+}
+select {
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    width: 50%;
+}
+.correctform {
+    padding: 5px 10px 10px;
+    margin: 5px 10px 20px;
+}
+input {
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+}
+footer {
+    background-color: #303846;
+    padding: 60px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3 {
+    font-size: 1em;
+}
+
+.logowrapper {
+    display: flex;
+}
+.logowrapper img {
+    margin-right: 15px;
 }
