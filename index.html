@@ -11,8 +11,8 @@
 
     <header>
         <div class="head-wrapper">
-        <div class="logo">
-       <img src="images/logo.svg" alt="Логотип" width='30px'>
+        <div class="logo-wrapper">
+       <img src="images/logo.svg" alt="Логотип">
         <a>Лунное море</a>
         </div>
         <nav>
@@ -23,14 +23,14 @@
     </div>
     </header>
     <main>
-        <div class="moonsea">
-            <div class="content">
-                <li><img src="images/logo.svg" alt="Логотип" width='150px'></li>
-                <h1>ЖК «Лунное море»</h1></li>
+        <div class="main-information">
+            <div class="main-information-wrapper">
+                <img src="images/logo.svg" alt="Логотип">
+                <h1>ЖК «Лунное море»</h1>
                 <a>Место, откуда не хочется улетать</a>
-                <button class="book">
-                    <a href="#form">Забронировать</a>
-                </button>
+                <div class="book">
+                    <a href="#form" class="white-href">Забронировать</a>
+                </div>
             </div>
         </div>
         
@@ -75,7 +75,7 @@
             <form action="#"> 
                 <fieldset>
                     <legend><h3>Параметры квартиры</h3></legend>
-                <div class="correctform">
+                <div class="form-wrapper">
                     <label for="rooms">Количество комнат:</label>
                     <select id="rooms">
                         <option>1</option>
@@ -83,7 +83,7 @@
                         <option>3</option>
                     </select><br>
                 </div>
-                <div class="correctform">
+                <div class="form-wrapper">
                     <label for="finishing">Отделка:</label>
                     <select id="finishing">
                         <option>Без отделки</option>
@@ -94,15 +94,15 @@
                   </fieldset>
                   <fieldset>
                     <legend><h3>Контактная информация</h3></legend>
-                    <div class="correctform">
+                    <div class="form-wrapper">
                         <label for="name">Имя:</label> 
                         <input type="text" id="name"><br>
                     </div>
-                    <div class="correctform">
+                    <div class="form-wrapper">
                         <label for="tel">Телефон:</label> 
                         <input type="text" id="tel"><br>
                     </div>
-                    <div class="correctform">
+                    <div class="form-wrapper">
                         <label for="mail">E-mail:</label> 
                         <input type="text" id="mail">
                     </div>
@@ -110,28 +110,27 @@
                   <button class="send">Отправить</button>
             </form>
         </section>
-    </div>
     </main>
     <footer>
-        <div class="logo2">
-        <div class="logowrapper">
-        <img src="images/logo.svg" alt="Логотип" width='30px'>
-        <h3>Лунное море</h3>
+        <div class="small-logo">
+        <div class="small-logo-wrapper">
+        <img src="images/logo.svg" alt="Логотип">
+        <h2>Лунное море</h2>
         </div>
         <a><small>©</small> 2032 год</a>
         </div>
         <div class="documentation">
-            <h3>Проектная документация</h3>
+            <h2>Проектная документация</h2>
             <ul>
-                <li>Скачать</li>
-                <li>Посмтреть на сайте</li>
+                <li><a href="#" class="white-href">Скачать</a></li>
+                <li><a href="#" class="white-href">Посмтреть на сайте</a></li>
             </ul>
         </div>
         <div class="developer">
-            <h3>О застройщике</h3>
+            <h2>О застройщике</h2>
             <ul>
-                <li>Отзывы</li>
-                <li>Сайт компании</li>
+                <li><a href="#" class="white-href">Отзывы</a></li>
+                <li><a href="#" class="white-href">Сайт компании</a></li>
             </ul>
         </div>
     </footer>

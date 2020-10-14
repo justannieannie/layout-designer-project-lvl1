@@ -34,15 +34,26 @@ header {
     font-weight: 600;
     width: 100%;
 }
+a {
+    outline: none;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: black;
+}
 
-.logo {
+.logo-wrapper {
     font-size: 1.2em;
     align-items: center;
     display: inline-flex;
     justify-content: flex-start;
 }
-.logo img {
+.logo-wrapper img {
     margin-right: 15px;
+    width: 30px;
 }
 
 nav {
@@ -54,20 +65,23 @@ nav a {
     margin: 10px;
 }
 
-.moonsea {
+.main-information {
     background-image: url(../images/banner.png);
     background-size: cover;
     background-position: center;
 }
-.content {
+.main-information-wrapper {
     display: flex;
     justify-content: space-between;
     width: 1000px;
     margin: auto;
-    color: white;
+    color: #fff;
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
+}
+.main-information-wrapper img {
+    width: 150px;
 }
 .book {
     background: transparent;
@@ -111,7 +125,7 @@ nav a {
 }
 
 form {
-    width: 30%;
+    width: 50%;
     color: #09d3ac;
     border-radius: 1px;
 }
@@ -141,7 +155,7 @@ select {
     padding: 10px;
     width: 50%;
 }
-.correctform {
+.form-wrapper {
     padding: 5px 10px 10px;
     margin: 5px 10px 20px;
 }
@@ -161,13 +175,20 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-h3 {
+footer h2 {
     font-size: 1em;
 }
 
-.logowrapper {
+.small-logo-wrapper {
     display: flex;
 }
-.logowrapper img {
+.small-logo-wrapper img {
     margin-right: 15px;
+    width: 30px;
+}
+.white-href:visited {
+    color: #fff;
+}
+.white-href:active {
+    color: #fff;
 }
