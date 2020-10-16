@@ -9,31 +9,31 @@
 </head>
 <body>
 
-    <header>
-        <div class="head-wrapper">
+    <div class="header header-fixed">
+        <div class="header-wrapper header-fixed">
         <div class="logo-wrapper">
        <img src="images/logo.svg" alt="Логотип">
         <a>Лунное море</a>
         </div>
-        <nav>
+        <nav class="nav-header">
             <a href="#advantages">Преимущества</a>
             <a href="#about">О ЖК «Лунное море»</a>
             <a href="#relax">Места для отдыха</a>
         </nav>
     </div>
-    </header>
+    </div>
     <main>
         <div class="main-information">
             <div class="main-information-wrapper">
                 <img src="images/logo.svg" alt="Логотип">
                 <h1>ЖК «Лунное море»</h1>
-                <a>Место, откуда не хочется улетать</a>
+                <p>Место, откуда не хочется улетать</p>
                 <div class="book">
                     <a href="#form" class="white-href">Забронировать</a>
                 </div>
             </div>
         </div>
-        
+
         <section class="advantages" id="advantages">
         <div class="container">
             <div class="advantages-item">
@@ -56,7 +56,7 @@
         <h2>О ЖК «Лунное море»</h2>
         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
         <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-        </div> 
+        </div>
        <img src="images/moon-1.jpg" alt="Луна">
         </div>
         </section>
@@ -71,8 +71,9 @@
         </div>
         </section>
         <section class="form" id="form">
+            <div class="width-wrapper">
             <h2>Оставьте заявку сегодня!</h2>
-            <form action="#"> 
+            <form action="#">
                 <fieldset>
                     <legend><h3>Параметры квартиры</h3></legend>
                 <div class="form-wrapper">
@@ -95,29 +96,30 @@
                   <fieldset>
                     <legend><h3>Контактная информация</h3></legend>
                     <div class="form-wrapper">
-                        <label for="name">Имя:</label> 
+                        <label for="name">Имя:</label>
                         <input type="text" id="name"><br>
                     </div>
                     <div class="form-wrapper">
-                        <label for="tel">Телефон:</label> 
+                        <label for="tel">Телефон:</label>
                         <input type="text" id="tel"><br>
                     </div>
                     <div class="form-wrapper">
-                        <label for="mail">E-mail:</label> 
+                        <label for="mail">E-mail:</label>
                         <input type="text" id="mail">
                     </div>
                   </fieldset>
                   <button class="send">Отправить</button>
             </form>
+        </div>
         </section>
     </main>
-    <footer>
+    <div class="footer">
         <div class="small-logo">
         <div class="small-logo-wrapper">
         <img src="images/logo.svg" alt="Логотип">
         <h2>Лунное море</h2>
         </div>
-        <a><small>©</small> 2032 год</a>
+        <p><small>©</small> 2032 год</p>
         </div>
         <div class="documentation">
             <h2>Проектная документация</h2>
@@ -133,7 +135,7 @@
                 <li><a href="#" class="white-href">Сайт компании</a></li>
             </ul>
         </div>
-    </footer>
+    </div>
 
 </body>
 </html>
