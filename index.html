@@ -12,10 +12,10 @@
     <header class="header header-sticky">
         <div class="header-wrapper header-fixed">
         <div class="logo-header">
-       <img src="images/logo.svg" alt="Логотип" class="logo">
-        <a>Лунное море</a>
+       <img src="images/logo.svg" alt="Логотип ЖК «Лунное море»" class="logo">
+        <p>Лунное море</p>
         </div>
-        <nav class="nav-header">
+        <nav class="dis-flex">
             <a href="#advantages" class="m-10">Преимущества</a>
             <a href="#about" class="m-10">О ЖК «Лунное море»</a>
             <a href="#relax" class="m-10">Места для отдыха</a>
@@ -23,7 +23,7 @@
     </div>
   </header>
     <main>
-        <div class="main-information bg-space col-white">
+        <div class="bg-space col-white">
             <div class="container container-column">
                 <img src="images/logo.svg" alt="Логотип" class="w-150">
                 <h1>ЖК «Лунное море»</h1>
@@ -35,7 +35,7 @@
         </div>
 
         <section class="advantages" id="advantages">
-        <div class="container container-space-around">
+        <div class="container container-flex-between">
             <div class="w-30">
             <h2>Уникальный вид</h2>
             <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -50,8 +50,8 @@
             </div>
         </div>
         </section>
-        <section class="about b-color" id="about">
-        <div class="container container-space-around">
+        <section class="about bg-gray" id="about">
+        <div class="container container-flex-between">
         <div class="item">
         <h2>О ЖК «Лунное море»</h2>
         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -61,8 +61,8 @@
         </div>
         </section>
         <section class="relax" id="relax">
-            <div class="container container-space-around">
-            <img src="images/moon-2.jpg" alt="Луна" class="param-img">
+            <div class="container container-flex-between">
+            <img src="images/moon-2.jpg" alt="Отдыхающий человек на Луне" class="param-img">
             <div class="item">
             <h2>Места для отдыха</h2>
             <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -70,10 +70,10 @@
             </div>
         </div>
         </section>
-        <section class="form" id="form">
-            <div class="w-1000">
+        <section class="bg-gray" id="form">
+          <div class="container container-column">
             <h2 class="txt-center">Оставьте заявку сегодня!</h2>
-            <form action="#">
+            <form action="#" class="form-of-request">
                 <fieldset>
                     <legend><h3>Параметры квартиры</h3></legend>
                 <div class="form-wrapper">
@@ -108,15 +108,16 @@
                         <input type="text" id="mail">
                     </div>
                   </fieldset>
-                  <button class="btn btn-send">Отправить</button>
+                  <button class="btn btn-green w-30">Отправить</button>
             </form>
-        </div>
+          </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="bg-deep-gray col-white">
+      <div class="container container-flex-between">
       <div class="logo-footer">
         <div class="dis-flex">
-        <img src="images/logo.svg" alt="Логотип" class="logo">
+        <img src="images/logo.svg" alt="Логотип ЖК «Лунное море»" class="logo">
         <h2 class="f-size-1">Лунное море</h2>
         </div>
         <p><small>©</small> 2032 год</p>
@@ -135,6 +136,7 @@
                 <li><a href="#" class="a-white">Сайт компании</a></li>
             </ul>
         </div>
+      </div>
     </footer>
 
 </body>
