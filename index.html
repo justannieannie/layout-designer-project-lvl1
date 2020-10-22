@@ -9,13 +9,13 @@
 </head>
 <body>
 
-    <header class="header header-sticky">
-        <div class="header-wrapper header-fixed">
-        <div class="logo-header">
-       <img src="images/logo.svg" alt="Логотип ЖК «Лунное море»" class="logo">
+    <header class="header h-60px header-sticky">
+        <div class="header-wrapper w-100">
+        <div class="d-inline-flex">
+       <img src="images/logo.svg" alt="Логотип ЖК «Лунное море»" class="m-right-15 w-30px">
         <p>Лунное море</p>
         </div>
-        <nav class="dis-flex">
+        <nav class="d-flex">
             <a href="#advantages" class="m-10">Преимущества</a>
             <a href="#about" class="m-10">О ЖК «Лунное море»</a>
             <a href="#relax" class="m-10">Места для отдыха</a>
@@ -23,9 +23,9 @@
     </div>
   </header>
     <main>
-        <div class="bg-space col-white">
-            <div class="container container-column">
-                <img src="images/logo.svg" alt="Логотип" class="w-150">
+        <div class="bg-space c-white">
+            <div class="container container-column a-items-center">
+                <img src="images/logo.svg" alt="Логотип" class="w-150px">
                 <h1>ЖК «Лунное море»</h1>
                 <p>Место, откуда не хочется улетать</p>
                 <div class="btn btn-book">
@@ -34,8 +34,8 @@
             </div>
         </div>
 
-        <section class="advantages" id="advantages">
-        <div class="container container-flex-between">
+        <section id="advantages">
+        <div class="container d-flex flex-between">
             <div class="w-30">
             <h2>Уникальный вид</h2>
             <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -50,20 +50,20 @@
             </div>
         </div>
         </section>
-        <section class="about bg-gray" id="about">
-        <div class="container container-flex-between">
-        <div class="item">
+        <section class="bg-gray" id="about">
+        <div class="container d-flex flex-between">
+        <div class="w-45">
         <h2>О ЖК «Лунное море»</h2>
         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
         <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
         </div>
-       <img src="images/moon-1.jpg" alt="Луна" class="param-img">
+       <img src="images/moon-1.jpg" alt="Луна" class="w-30 h-100">
         </div>
         </section>
-        <section class="relax" id="relax">
-            <div class="container container-flex-between">
-            <img src="images/moon-2.jpg" alt="Отдыхающий человек на Луне" class="param-img">
-            <div class="item">
+        <section id="relax">
+            <div class="container d-flex flex-between">
+            <img src="images/moon-2.jpg" alt="Отдыхающий человек на Луне" class="w-30 h-100">
+            <div class="w-45">
             <h2>Места для отдыха</h2>
             <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
             <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
@@ -73,7 +73,7 @@
         <section class="bg-gray" id="form">
           <div class="container container-column">
             <h2 class="txt-center">Оставьте заявку сегодня!</h2>
-            <form action="#" class="form-of-request">
+            <form action="#" class="form-of-request w-50">
                 <fieldset>
                     <legend><h3>Параметры квартиры</h3></legend>
                 <div class="form-wrapper">
@@ -86,7 +86,7 @@
                 </div>
                 <div class="form-wrapper">
                     <label for="finishing">Отделка:</label>
-                    <select id="finishing">
+                    <select class="w-50" id="finishing">
                         <option>Без отделки</option>
                         <option>С отделкой</option>
                         <option>Готовый ремонт</option>
@@ -97,15 +97,15 @@
                     <legend><h3>Контактная информация</h3></legend>
                     <div class="form-wrapper">
                         <label for="name">Имя:</label>
-                        <input type="text" id="name"><br>
+                        <input class="w-50" type="text" id="name"><br>
                     </div>
                     <div class="form-wrapper">
                         <label for="tel">Телефон:</label>
-                        <input type="text" id="tel"><br>
+                        <input class="w-50" type="text" id="tel"><br>
                     </div>
                     <div class="form-wrapper">
                         <label for="mail">E-mail:</label>
-                        <input type="text" id="mail">
+                        <input class="w-50" type="text" id="mail">
                     </div>
                   </fieldset>
                   <button class="btn btn-green w-30">Отправить</button>
@@ -113,23 +113,23 @@
           </div>
         </section>
     </main>
-    <footer class="bg-deep-gray col-white">
-      <div class="container container-flex-between">
-      <div class="logo-footer">
-        <div class="dis-flex">
-        <img src="images/logo.svg" alt="Логотип ЖК «Лунное море»" class="logo">
+    <footer class="bg-deep-gray c-white">
+      <div class="container d-flex flex-between">
+      <div>
+        <div class="d-flex">
+        <img src="images/logo.svg" alt="Логотип ЖК «Лунное море»" class="m-right-15 w-30px">
         <h2 class="f-size-1">Лунное море</h2>
         </div>
         <p><small>©</small> 2032 год</p>
         </div>
-        <div class="documentation">
+        <div>
             <h2 class="f-size-1">Проектная документация</h2>
             <ul>
                 <li><a href="#" class="a-white">Скачать</a></li>
                 <li><a href="#" class="a-white">Посмтреть на сайте</a></li>
             </ul>
         </div>
-        <div class="developer">
+        <div>
             <h2 class="f-size-1">О застройщике</h2>
             <ul>
                 <li><a href="#" class="a-white">Отзывы</a></li>
