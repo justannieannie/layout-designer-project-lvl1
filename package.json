@@ -20,5 +20,12 @@
   "dependencies": {
     "surge": "^0.21.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "htmlhint": "^0.14.1",
+    "prettier": "2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0"
+  }
 }
